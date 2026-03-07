@@ -1,0 +1,7 @@
+{
+  "name": "daspkg-test-deps",
+  "description": "Test package: module with dependencies",
+  "dependencies": {
+    "daspkg-test-pure": "github.com/borisbat/daspkg-test-pure"
+  }
+}
