@@ -5,7 +5,9 @@ require daslib/daspkg
 [export]
 def package() {
     package_name("daspkg-test-deps")
+    package_author("borisbat")
     package_description("Test package: module with dependencies")
+    package_tag("test")
 }
 
 [export]
