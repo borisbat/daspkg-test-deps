@@ -2,7 +2,7 @@ options gen2
 
 module test_deps shared public
 
-require daslib/test_pure
+require test_pure/test_pure
 
 def greet_twice(name : string) : string {
     return "{greet(name)} {greet(name)}"
